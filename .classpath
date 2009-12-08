@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="views"/>
+	<classpathentry kind="src" path="controllers"/>
+	<classpathentry kind="src" path="static"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/eclipseprojects/com.mikeihbe/classes"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/compojure.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/clojure-contrib.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/clojure.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/grizzly-http-servlet-1.9.10.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/grizzly-http-webserver-1.9.10.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/jetty-6.1.15.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/jetty-util-6.1.15.jar"/>
+	<classpathentry kind="lib" path="/Users/mikeihbe/Code/compojure/deps/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
