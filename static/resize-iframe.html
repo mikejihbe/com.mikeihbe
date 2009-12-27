@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Nifty resizing iframe hack</title>
+    <script type="text/javascript">
+      /**
+       * This iframe gets load by the first iframe. This one
+       * will communicate with the main page telling it to
+       * resize the iframe that has content in it. It will
+       * get the height from the URL that was used to
+       * link to this page, e.g. iframe-resize.html?height=456
+       */
+      function onLoad() {
+        var params = window.location.search.substring( 1 ).split( '&' );
+        var height;
+        for( var i = 0, l = params.length; i < l; ++i ) {
+          var parts = params[i].split( '=' );
+          switch( parts[0] ) {
+          case 'height':
+            height = parseInt( parts[1] );
+            break;
+          }
+        }
+        if( typeof( height ) == 'number' ) {
+          window.top.updateIFrame( height );
+        }
+      }
+
+    window.onload = onLoad;
+    </script>
+  </head>
+  <body>
+    <p>Resizing IFrame...</p>
+  </body>
+</html>
