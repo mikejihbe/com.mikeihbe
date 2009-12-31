@@ -1,0 +1,9 @@
+#!/bin/sh
+CLASSPATH=bin:classes:src:controllers
+ 
+for f in deps/*.jar; do
+    CLASSPATH=$CLASSPATH:$f
+done
+ 
+#java -cp $CLASSPATH clojure.lang.Script $1
+java -cp $CLASSPATH clojure.contrib.repl_ln -i src/mikeihbe.clj --repl
